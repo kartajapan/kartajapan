@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "Namn": "Fu Fu Ramen",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Ett ikoniskt kommunikations- och observationstorn i Minato, Tokyo."
+  },
+  {
+    "id": "2",
+    "Namn": "BOULDERING GYM OVERGROUND",
+    "plats": {
+      "lat": 36.10086683393259,
+      "Lon": 139.4582513699866
+    },
+    "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
+    "beskrivning": "Här skall gran klätta imorgon"
+  }
+]
+
+
