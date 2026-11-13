@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Karta & Waypoints</title>
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
+        body { display: flex; height: 100vh; overflow: hidden; }
+
+        /* Karta */
+        #map { flex: 1; height: 100%; z-index: 1; background: #e5e3df; }
+
+        /* Sidopanel */
+        #sidebar {
+            width: 380px;
+            background: #f8f9fa;
+            border-left: 1px solid #ddd;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Behållare som placerar pricken exakt på koordinaten och texten bredvid */
+        .place-marker-container {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            white-space: nowrap;
+            transform: translate(-7px, -50%); /* Centrerar den 14px breda cirkeln exakt över koordinaten */
+        }
+
+        /* Själva blå cirkeln på kartan */
+        .place-dot {
+            width: 14px;
+            height: 14px;
+            background-color: #0055cc;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            flex-shrink: 0;
+            transition: transform 0.15s, background-color 0.15s;
+        }
+
+        /* Den svarta texten bredvid pricken */
+        .place-label {
+            color: #111111;
+            font-weight: 700;
+            font-size: 13px;
+            background: rgba(255, 255, 255, 0.88);
+            padding: 2px 6px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            transition: background-color 0.15s;
+        }
+
+        .place-marker-container:hover .place-dot {
+            transform: scale(1.25);
+            background-color: #d9381e;
+        }
+        .place-marker-container:hover .place-label {
+            background: #ffffff;
+        }
+
+        /* Info-kort */
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .btn-toggle { background: #28a745; width: 100%; font-weight: bold; }
+        .btn-toggle.active { background: #dc3545; }
+
+        /* Waypoint-lista */
+        .waypoint-item {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+            font-size: 13px;
+        }
+        select, textarea {
+            width: 100%;
+            margin-top: 5px;
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        textarea { height: 120px; font-family: monospace; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="sidebar">
+    <!-- Informationsruta för vald plats -->
+    <div id="info-panel" class="card">
+        <h2>Välj en plats</h2>
+        <p style="color: #666; margin-top: 8px;">Klicka på en plats på kartan för att visa detaljer, bilder och länkar.</p>
+    </div>
+
+    <!-- Verktyg för Waypoints -->
+    <div class="card">
+        <h3>Waypoints-verktyg</h3>
+        <button id="toggle-wp-mode" class="btn btn-toggle">Aktivera klick på karta för Waypoint</button>
+        <p id="wp-status" style="font-size: 12px; color: #555; margin-top: 6px;">Läge: Avstängt</p>
+
+        <div id="waypoint-list" style="margin-top: 10px;"></div>
+
+        <h4 style="margin-top: 15px;">Exportera JSON</h4>
+        <textarea id="json-output" readonly placeholder="Dina skapade waypoints visas här som JSON..."></textarea>
+        <button id="copy-json" class="btn" style="background: #333; width: 100%;">Kopiera JSON</button>
+    </div>
+</div>
+
+<!-- Laddar Leaflet och startar sedan app.js automatiskt -->
+<script>
+    (function() {
+        const base = ['https:/', 'unpkg.com', 'leaflet@1.9.4', 'dist'].join('/');
+
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = base + '/leaflet.css';
+        document.head.appendChild(link);
+
+        const script = document.createElement('script');
+        script.src = base + '/leaflet.js';
+        script.onload = () => {
+            const appScript = document.createElement('script');
+            appScript.src = 'app.js';
+            document.body.appendChild(appScript);
+        };
+        script.onerror = () => {
+            alert('Kunde inte hämta Leaflet från unpkg.com. Kontrollera din internetanslutning.');
+        };
+        document.body.appendChild(script);
+    })();
+</script>
+</body>
+</html>
