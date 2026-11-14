@@ -1,110 +1,123 @@
 [
   {
     "id": "1",
-    "Namn": "Går från stationen till första hotellet",
-    "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
-    },
-    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
-    "beskrivning": "Som i en film, och påvägen ser vi InitialD bilen!!",
-    "color": "yellow"
-  },
-  {
-    "id": "1",
     "Namn": "Första restaurangen",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 35.58883488819386,
+      "Lon": 139.7332860329234
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
-    "beskrivning": "Helt själva först, vid 18 dundrar det in ",
-    "color": "yellow"
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWFs9y89E4ax7yB4TLPdIkyXZ8Yo5vltwZyhetmUAqHKrMBk_9XcgQKNzKOEOe86eB8I8VvrprXiC5Q-HdRsxU-Hwq-vgfo162Wys3tSyCH7ne5orlykkLr5BEwuWip399qIGn=w426-h240-k-no",
+    "beskrivning": "Helt själva först, vid 18 dundrar det in salery-man folk och när vi går är det helt fullt.",
+    "color": "yellow",
+    "dag": 1
+
   },
   {
     "id": "1",
     "Namn": "Första hotellet",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 35.587086297416676,
+      "Lon": 139.73624112803594
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
-    "beskrivning": "Grans fina hotell",
-    "color": "yellow"
+    "beskrivning": "Grans fina hotell, vi behövde bo här så gran kunde beställa en väska till hotellet. Men när vi kommer fram så visar det sig att tjejen köpt den i sverige!",
+    "color": "yellow",
+    "dag": 1
+
   },
   {
     "id": "1",
-    "Namn": "Mat - ägg och ris",
+    "Namn": "Belltree - ägg och ris",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.140229578916,
+      "Lon": 139.39259122397368
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLd70gqXqs9_wgLo-Hd8PWk7a77y-oXPYhzaOcygiOjJ5Kdrr9tYhAilKjrII4_xrs6PNl4xjpoaul2r4DNUT_nUUmMQ3Fa-5tcchNunyFlp6kVMCtGgnsRPgRpnM_611RJEXcqaGxnjI_du=w408-h544-k-no",
     "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
-    "color": "yellow"
+    "color": "yellow",
+    "dag": 2
+
   },
   {
     "id": "1",
-    "Namn": "Kvällspromenad",
+    "Namn": "Första publika badhuset = Sento",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.14082124373146,
+      "Lon": 139.39085783150279
     },
-    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
-    "beskrivning": "Titta in arkadhall",
-    "color": "yellow"
+    "googlemapLink": "<https://www.google.com/maps/place/%E3%81%95%E3%81%8F%E3%82%89%E6%B9%AF/@36.1408752,139.3905025,20.12z/data=!4m10!1m2!2m1!1ssento!3m6!1s0x601f29bc20f69a13:0xe00dca67e8af4177!8m2!3d36.1408306!4d139.3908236!15sCgVzZW50b5IBBXNlbnRv4AEA!16s%2Fg%2F1tj91my_?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLem32LCC3y4mNH25oJXfeTphb9yvbY8ZTyuWJje6Lv-iDAtKVmHb1kcIO6JoGrahyJ_vQfPZ09B-xD0jununaGftMVKTXFRM_kL5yFQwRuZHr2W-byE3YHZLcaNPtuVAZgUQZCehjHBCiE=w408-h306-k-no",
+    "beskrivning": "Fösta badet på publikt badhus. Många gubbar som skall tvaga sig och nästan helt fullt när vi är där. Trevlig men 45C i poolen där man badade. riktigt hett",
+    "color": "yellow",
+    "dag": 2
   },
   {
     "id": "1",
     "Namn": "Fu Fu Ramen",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.13907360375329,
+      "Lon": 139.38872103822368
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
-    "beskrivning": "Ett ikoniskt kommunikations- och observationstorn i Minato, Tokyo."
+    "beskrivning": "Gran måste ha ramen, verkar vara bästa stället inom kort avstånd från hotellet.",
+    "color": "yellow",
+    "dag": 2
   },
   {
     "id": "1",
     "Namn": "På promenad, kyrkogård",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.1326569616798,
+      "Lon": 139.41046949366356
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLcnZu78mEazVVQEUAqRlJetmL7eSqfsl1F7hHXfoVkFVCMzUe8WLiDxq0VfjloQIdoR7QSbshImwr6LxLsqjRaap9Rh6f14Jyvgftlz8-1tdILIoZ9ID0cwc3rYdsTCOCkjdxov=w408-h305-k-no",
     "beskrivning": "Promenad och går förbi en liten kyrkogård",
-    "color": "yellow"
+    "color": "yellow",
+    "dag": 3
   },
   {
     "id": "1",
     "Namn": "köper äklig dricka",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.11895600669915,
+      "Lon": 139.43150670069232
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
     "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
-    "color": "yellow"
+    "color": "yellow",
+    "dag": 3
+  },
+  {
+    "id": "1",
+    "Namn": "paus i park",
+    "plats": {
+      "lat": 36.114835928945425,
+      "Lon": 139.4412082948292
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuwraRS-NRN9Hy7cWkkf4-J_KFYMTKZLj8SWPNPA9OMvQbst6wtWKl-bi5WxOeAitYn8EH3Dt19233DRf5fjW1HpBn7Tt00uppiOMymxofOnxprgmirQLBiXVQ_CucWcx2LDs1iA=w408-h306-k-no",
+    "beskrivning": "Liten park.",
+    "color": "yellow",
+    "dag": 3
   },
   {
     "id": "1",
     "Namn": "Mat - dunderportion",
     "plats": {
-      "lat": 36.13906359399449,
-      "Lon": 139.3887581811142
+      "lat": 36.11167854335241,
+      "Lon": 139.44282322368522
     },
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
     "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
-    "color": "yellow"
+    "color": "yellow",
+    "dag": 3
   },
   {
     "id": "2",
@@ -115,30 +128,139 @@
     },
     "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
-    "beskrivning": "Här skall gran klätta imorgon"
+    "beskrivning": "Här klättrade gran, gobben i kassan var super hjälpsam. Japan har tydligen ett annat graderingssystem än vi som använder fransmännens gradskala för klätterproblem.",
+    "color": "yellow",
+    "dag": 3
+  },
+
+  {
+    "id": "2",
+    "Namn": "Hotel celection",
+    "plats": {
+      "lat": 36.03198998289172,
+      "Lon": 139.53397286713664
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLccJpxuySzpoclTq2gFEjgebXsl0_Oy60S0usTrYwAza-6_qUAB7RtgqJY0kDtPJEEkB2gnChbH-p0KEZOOBuAKOdw4SRCR8_c-_qi1HSbXIiTR4mueWNKuNBk4HhvGG60kuFowef4gWrc7=w408-h306-k-no",
+    "beskrivning": "just a hotel",
+    "dag": 3,
+    "color": "yellow"
+
   },
   {
     "id": "2",
-    "Namn": "BOULDERING GYM OVERGROUND",
+    "Namn": "Karaeoke ftw!",
+    "plats": {
+      "lat": 36.02700275240446,
+      "Lon": 139.53194304207142
+    },
+    "googlemapLink": "",
+    "img": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=C9_XFIhzkCPyCqyGkkJdog&cb_client=search.gws-prod.grass&w=408&h=240&yaw=306.5837&pitch=-5.819252&thumbfov=100",
+    "beskrivning": "AAAA",
+    "dag": 3,
+    "color": "yellow"
+
+  },
+  {
+    "id": "2",
+    "Namn": "tempel",
+    "plats": {
+      "lat": 36.03033175404464,
+
+      "Lon": 139.5376944629369
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLenj6TObbQMS_xTrqZ3MqbQoOm9mu5VprX2nmTFNxqvWUiEbFfY_GWXW_mYrT2-Z0H6TYPiUcJd5V5ULtSJYvDCBcRTmeKeosMG000SBKWMwPROrYvPSDoW-kWPXyramAUdDRtH=w408-h306-k-no",
+    "beskrivning": "AAAA",
+    "dag": 4,
+    "color": "yellow"
+
+  },
+  {
+    "id": "2",
+    "Namn": "paus kolla på tåg",
+    "plats": {
+      "lat": 36.01831925672559,
+      "Lon": 139.54456627968304
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6keGFhx8-XedONYOYWQrIFqOxERuow1WJttfsQUMZHHDMt0eCK-ADfCTmb5GMC8aDvZTH2STncILJOVV-NoF3ZN4kOwAic_gGhexCl2GFjOFPaNbUbGT8qs2DGzwMmTgss7AC=w408-h306-k-no",
+    "beskrivning": "AAAA",
+    "dag": 4,
+    "color": "yellow"
+
+  },
+  {
+    "id": "2",
+    "Namn": "Cafe Endor, en macka och kallt kaffe",
     "plats": {
       "lat": 36.10086686393259,
       "Lon": 139.4582516699866
     },
-    "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
-    "beskrivning": "Här skall gran klätta imorgon"
+    "googlemapLink": "",
+    "img": "https://www.google.com/maps/place/caf%C3%A9+ENDOR/@36.0095661,139.5564447,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBlJ_PEXnPycM9ezppaGydM!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SKg07No87aPamKW8YqG4Gie0HxsJ-b0xZGj7kD3v7hORX48EWdAw9RWUA6OlFgzKAtaaFsb30uzjCFyDGmpUAwVOouIni5LF3XHp4TC4JrxkBP8BE-wBzjvzzQN3jYnmlIYvqH7G0uBrg8%3Dw203-h152-k-no!7i4000!8i3000!4m15!1m7!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!2scaf%C3%A9+ENDOR!8m2!3d36.0097083!4d139.5566205!16s%2Fg%2F11r1ygg_jw!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!8m2!3d36.0097083!4d139.5566205!10e5!16s%2Fg%2F11r1ygg_jw?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D#",
+    "beskrivning": "AAAA",
+    "dag": 4,
+    "color": "yellow"
+
   },
   {
     "id": "2",
-    "Namn": "BOULDERING GYM OVERGROUND",
+    "Namn": "Åker tåg från okegawa till aego ",
     "plats": {
-      "lat": 36.10086683393259,
-      "Lon": 139.4582513699866
+      "lat": 35.99876959122506,
+      "Lon": 139.56422078903583
     },
-    "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
-    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
-    "beskrivning": "Här skall gran klätta imorgon"
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEMmmRwVlAMGqsy5ZU0DrNK7cyFeZqgn-wGhThuPU-BBXJJP_ivxjLKZ8M2KSpCBGG7YJUNUTz-BFpo-zbhNM5UcXbHg-3E7My-d1W45yiMFCUs1pdyGwE8zyTtln7ycGx2gUDNQ=w408-h306-k-no",
+    "beskrivning": "AAAA",
+    "dag": 4,
+    "color": "yellow"
+
   },
+  {
+    "id": "2",
+    "Namn": "APA Hotel",
+    "plats": {
+      "lat": 35.971525732023466,
+      "Lon": 139.59031901318338
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 4,
+    "color": "yellow"
+
+  },
+  {
+    "id": "2",
+    "Namn": "惣菜食堂 NiCO",
+    "plats": {
+      "lat": 35.10086686393259,
+      "Lon": 139.4582516699866
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTq80kJQJKMKZFr2hhJmJmilpzDD4WSlXJ4Qecb3sSn7E6Jz1Kf5jV1cxg_56hgjg9HymD2o6qCasmylvFlvDvueJyln1Aw_aL-dKFNIsNbMPBIu7g8dHiu_7u88ShzkX-j-s5Yy8yTKcF=w408-h797-k-no",
+    "beskrivning": "Käkar en set meny, borde käkat friterad kykling endast. Men fick tag på en grön öl  :D",
+    "dag": 4,
+    "color": "yellow"
+
+  },
+
+  {
+  "id": "2",
+  "Namn": "AAAA",
+  "plats": {
+    "lat": 35.10086686393259,
+    "Lon": 139.4582516699866
+  },
+  "googlemapLink": "",
+  "img": "",
+  "beskrivning": "AAAA",
+  "dag": 3
+},
+
+
   {
     "id": "1",
     "Namn": "Hirayamas lägenhet (Kameido)",
