@@ -1,18 +1,60 @@
 // 1. Initiera kartan (startar över Japan tills waypoints/platser laddats)
 const map = L.map('map').setView(L.latLng(36.2048, 138.2529), 5);
 
-const tileUrl = ['https:/', 'tile.openstreetmap.org', '{z}', '{x}', '{y}.png'].join('/');
-L.tileLayer(tileUrl, {
-    attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
+// Vanlig karta (OpenStreetMap)
+const osmUrl = new Array('https:/', 'tile.openstreetmap.org', '{z}', '{x}', '{y}.png').join('/');
+const streetLayer = L.tileLayer(osmUrl, {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 19
+});
+
+// Flygfoto / Satellit (Esri World Imagery)
+const esriUrl = new Array('https:/', '://arcgisonline.com', 'ArcGIS', 'rest', 'services', 'World_Imagery', 'MapServer', 'tile', '{z}', '{y}', '{x}').join('/');
+const satelliteLayer = L.tileLayer(esriUrl, {
+    attribution: 'Tiles &copy; Esri',
+    maxZoom: 19
+});
+
+streetLayer.addTo(map);
+
+// Switch mellan Karta och Flygfoto uppe till höger
+const baseMaps = {
+    "Karta": streetLayer,
+    "Flygfoto": satelliteLayer
+};
+L.control.layers(baseMaps, null, { position: 'topright' }).addTo(map);
 
 let platserData = new Array();
+let placeMarkers = new Array();
+let showOnlyLatestDay = false;
 let waypointMode = false;
 let waypointCounter = 1;
 let waypointsState = new Array();
-let routeLayers = new Array(); // Lagrar alla linjesegment på kartan
+let routeLayers = new Array();
 
-// Funktion som anpassar kartans utsnitt och inzoomning efter dina waypoints
+// Hitta det högsta dag-numret i platser.json
+function getLatestDay() {
+    if (platserData.length === 0) return 0;
+    const days = platserData.map(p => Number(p.dag) || 0);
+    return Math.max(...days);
+}
+
+// Uppdatera texten på dag-filterknappen
+function updateDayFilterButton() {
+    const btn = document.getElementById('toggle-latest-day');
+    if (!btn) return;
+
+    const latestDay = getLatestDay();
+    if (showOnlyLatestDay) {
+        btn.classList.add('active');
+        btn.textContent = `Visar Dag ${latestDay} (Klicka för att visa alla dagar)`;
+    } else {
+        btn.classList.remove('active');
+        btn.textContent = latestDay > 0 ? `Visa bara senaste dagen (Dag ${latestDay})` : 'Visa bara senaste dagen';
+    }
+}
+
+// Anpassa kartans utsnitt efter waypoints
 function fitMapToWaypoints() {
     if (waypointsState.length === 0) return;
 
@@ -37,6 +79,7 @@ fetch('platser.json')
     })
     .then(data => {
         platserData = data;
+        updateDayFilterButton();
         renderPlaces(platserData);
         loadSavedWaypoints();
     })
@@ -76,7 +119,15 @@ function loadSavedWaypoints() {
 }
 
 function renderPlaces(platser) {
-    platser.forEach(plats => {
+    placeMarkers.forEach(marker => map.removeLayer(marker));
+    placeMarkers = new Array();
+
+    const latestDay = getLatestDay();
+    const placesToShow = showOnlyLatestDay
+        ? platser.filter(p => Number(p.dag) === latestDay)
+        : platser;
+
+    placesToShow.forEach(plats => {
         const dotColor = plats.color || 'black';
 
         const btnIcon = L.divIcon({
@@ -96,13 +147,40 @@ function renderPlaces(platser) {
             showPlaceDetails(plats);
             map.flyTo(L.latLng(plats.plats.lat, plats.plats.Lon), 15);
         });
+
+        placeMarkers.push(marker);
+    });
+
+    if (showOnlyLatestDay && placesToShow.length > 0) {
+        if (placesToShow.length === 1) {
+            const p = placesToShow.at(0);
+            map.flyTo(L.latLng(p.plats.lat, p.plats.Lon), 15);
+        } else {
+            const coords = placesToShow.map(p => L.latLng(p.plats.lat, p.plats.Lon));
+            map.fitBounds(L.latLngBounds(coords), { padding: L.point(60, 60), maxZoom: 16 });
+        }
+    }
+}
+
+const dayFilterBtn = document.getElementById('toggle-latest-day');
+if (dayFilterBtn) {
+    dayFilterBtn.addEventListener('click', () => {
+        showOnlyLatestDay = !showOnlyLatestDay;
+        updateDayFilterButton();
+        renderPlaces(platserData);
+
+        if (!showOnlyLatestDay) {
+            fitMapToWaypoints();
+        }
     });
 }
 
 function showPlaceDetails(plats) {
     const panel = document.getElementById('info-panel');
+    const dayBadge = plats.dag ? `<span style="background:#eee; padding:2px 8px; border-radius:12px; font-size:12px; font-weight:bold; margin-left:6px;">Dag ${plats.dag}</span>` : '';
+
     panel.innerHTML = `
-        <h2>${plats.Namn}</h2>
+        <h2>${plats.Namn}${dayBadge}</h2>
         <p style="font-size: 12px; color: #777;">ID: ${plats.id}</p>
         ${plats.img ? `<img src="${plats.img}" alt="${plats.Namn}">` : ''}
         <p style="margin-top: 8px; line-height: 1.5;">${plats.beskrivning}</p>
@@ -205,7 +283,6 @@ function updateWaypointUI() {
         `;
         listContainer.appendChild(item);
     });
-
     document.querySelectorAll('#waypoint-list select').forEach(select => {
         select.addEventListener('change', (e) => {
             const idx = e.target.getAttribute('data-index');
@@ -213,7 +290,6 @@ function updateWaypointUI() {
             generateJsonOutput();
         });
     });
-
     document.querySelectorAll('#waypoint-list button[data-remove]').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const idx = Number(e.target.getAttribute('data-remove'));
@@ -222,10 +298,8 @@ function updateWaypointUI() {
             updateWaypointUI();
         });
     });
-
     generateJsonOutput();
 }
-
 function generateJsonOutput() {
     const formattedOutput = {
         waypoints: waypointsState.map(wp => ({
@@ -237,13 +311,12 @@ function generateJsonOutput() {
             }
         }))
     };
-
     document.getElementById('json-output').value = JSON.stringify(formattedOutput, null, 2);
 }
-
 document.getElementById('copy-json').addEventListener('click', () => {
     const textarea = document.getElementById('json-output');
     textarea.select();
     navigator.clipboard.writeText(textarea.value);
     alert('JSON kopierad till urklipp!');
 });
+
