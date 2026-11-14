@@ -7,14 +7,27 @@
 
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
-        body { display: flex; height: 100vh; overflow: hidden; }
+
+        /* Desktop-läge (standard) */
+        body {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            overflow: hidden;
+        }
 
         /* Karta */
-        #map { flex: 1; height: 100%; z-index: 1; background: #e5e3df; }
+        #map {
+            flex: 1;
+            height: 100%;
+            z-index: 1;
+            background: #e5e3df;
+        }
 
         /* Sidopanel */
         #sidebar {
             width: 380px;
+            height: 100%;
             background: #f8f9fa;
             border-left: 1px solid #ddd;
             padding: 20px;
@@ -24,6 +37,26 @@
             gap: 20px;
         }
 
+        /* Mobilläge (skärmar upp till 768px) */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            #map {
+                flex: none;
+                width: 100%;
+                height: 50vh; /* Övre halvan */
+            }
+            #sidebar {
+                width: 100%;
+                height: 50vh; /* Undre halvan */
+                border-left: none;
+                border-top: 2px solid #ddd;
+                padding: 15px;
+                gap: 15px;
+            }
+        }
+
         /* Behållare som placerar pricken exakt på koordinaten och texten bredvid */
         .place-marker-container {
             display: flex;
@@ -31,7 +64,7 @@
             gap: 6px;
             cursor: pointer;
             white-space: nowrap;
-            transform: translate(-7px, -50%); /* Centrerar den 14px breda cirkeln exakt över koordinaten */
+            transform: translate(-7px, -50%);
         }
 
         /* Själva cirkeln på kartan */
