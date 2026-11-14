@@ -1,5 +1,10 @@
 [
   {
+    "japanese": "ビールを二つお願いします",
+    "japanese_fonetiskt": "Bi-ro å fo-tat-so å-ne-gaj sji-mass",
+    "svenska": "Två öl, tack"
+  },
+  {
     "japanese": "すみません",
     "japanese_fonetiskt": "So-mi-ma-sen",
     "svenska": "Ursäkta mig / Förlåt"
@@ -23,5 +28,130 @@
     "japanese": "トイレはどこですか",
     "japanese_fonetiskt": "Tåj-le wa då-kå dess-ka",
     "svenska": "Var ligger toaletten?"
+  },
+  {
+    "japanese": "おはようございます",
+    "japanese_fonetiskt": "Å-ha-jå gå-zaj-mass",
+    "svenska": "God morgon"
+  },
+  {
+    "japanese": "こんにちは",
+    "japanese_fonetiskt": "Kån-ni-tji-wa",
+    "svenska": "Hej / God dag"
+  },
+  {
+    "japanese": "こんばんは",
+    "japanese_fonetiskt": "Kån-ban-wa",
+    "svenska": "God kväll"
+  },
+  {
+    "japanese": "はい / いいえ",
+    "japanese_fonetiskt": "Haj / I-e",
+    "svenska": "Ja / Nej"
+  },
+  {
+    "japanese": "お願いします",
+    "japanese_fonetiskt": "Å-ne-gaj sji-mass",
+    "svenska": "Snälla / Tack (vid beställning)"
+  },
+  {
+    "japanese": "大丈夫です",
+    "japanese_fonetiskt": "Daj-jå-bo dess",
+    "svenska": "Det är okej / Ingen fara / Nej tack"
+  },
+  {
+    "japanese": "英語のメニューはありますか",
+    "japanese_fonetiskt": "Ej-gå nå me-ny-o wa a-ri-mass-ka",
+    "svenska": "Har ni en meny på engelska?"
+  },
+  {
+    "japanese": "二人です",
+    "japanese_fonetiskt": "Fo-ta-ri dess",
+    "svenska": "Vi är två personer (på restaurang)"
+  },
+  {
+    "japanese": "一人です",
+    "japanese_fonetiskt": "Hi-tå-ri dess",
+    "svenska": "Jag är en person (på restaurang)"
+  },
+  {
+    "japanese": "お水をお願いします",
+    "japanese_fonetiskt": "Å-mi-zo å å-ne-gaj sji-mass",
+    "svenska": "Vatten, tack"
+  },
+  {
+    "japanese": "ごちそうさまでした",
+    "japanese_fonetiskt": "Gå-tji-så-sa-ma desj-ta",
+    "svenska": "Tack för maten (sägs när man går)"
+  },
+  {
+    "japanese": "とても美味しかったです",
+    "japanese_fonetiskt": "Tå-te-må åj-sji-kat-ta dess",
+    "svenska": "Det var jättegott"
+  },
+  {
+    "japanese": "これはいくらですか",
+    "japanese_fonetiskt": "Kå-re wa i-ko-ra dess-ka",
+    "svenska": "Hur mycket kostar den här?"
+  },
+  {
+    "japanese": "クレジットカードは使えますか",
+    "japanese_fonetiskt": "Ko-re-djit-tå ka-då wa tso-ka-e-mass-ka",
+    "svenska": "Kan jag betala med kort?"
+  },
+  {
+    "japanese": "袋はいりません",
+    "japanese_fonetiskt": "Fo-ko-rå wa i-ri-ma-sen",
+    "svenska": "Jag behöver ingen påse, tack"
+  },
+  {
+    "japanese": "駅はどこですか",
+    "japanese_fonetiskt": "E-ki wa då-kå dess-ka",
+    "svenska": "Var ligger tågstationen?"
+  },
+  {
+    "japanese": "この電車は東京に行きますか",
+    "japanese_fonetiskt": "Kå-nå den-sja wa Tå-kjå ni i-ki-mass-ka",
+    "svenska": "Går det här tåget till Tokyo?"
+  },
+  {
+    "japanese": "切符はどこで買えますか",
+    "japanese_fonetiskt": "Kip-po wa då-kå de ka-e-mass-ka",
+    "svenska": "Var kan jag köpa biljett?"
+  },
+  {
+    "japanese": "写真を撮ってもいいですか",
+    "japanese_fonetiskt": "Sja-sjin å tåt-te må i-i dess-ka",
+    "svenska": "Får jag ta ett foto här?"
+  },
+  {
+    "japanese": "ちょっと待ってください",
+    "japanese_fonetiskt": "Tjåt-tå mat-te ko-da-saj",
+    "svenska": "Vänta ett ögonblick, tack"
+  },
+  {
+    "japanese": "日本語が分かりません",
+    "japanese_fonetiskt": "Ni-hån-gå ga wa-ka-ri-ma-sen",
+    "svenska": "Jag förstår inte japanska"
+  },
+  {
+    "japanese": "英語を話せますか",
+    "japanese_fonetiskt": "Ej-gå å ha-na-se-mass-ka",
+    "svenska": "Talar du engelska?"
+  },
+  {
+    "japanese": "道に迷いました",
+    "japanese_fonetiskt": "Mi-tji ni ma-jåj-masj-ta",
+    "svenska": "Jag har gått vilse"
+  },
+  {
+    "japanese": "助けてください",
+    "japanese_fonetiskt": "Ta-so-ke-te ko-da-saj",
+    "svenska": "Snälla hjälp mig"
+  },
+  {
+    "japanese": "さようなら / またね",
+    "japanese_fonetiskt": "Sa-jå-na-ra / Ma-ta ne",
+    "svenska": "Hej då / Vi ses"
   }
 ]
