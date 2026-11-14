@@ -7,21 +7,21 @@
 
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
-        
+
         /* Desktop-läge (standard) */
-        body { 
-            display: flex; 
+        body {
+            display: flex;
             flex-direction: row;
-            height: 100vh; 
-            overflow: hidden; 
+            height: 100vh;
+            overflow: hidden;
         }
 
         /* Karta */
-        #map { 
-            flex: 1; 
-            height: 100%; 
-            z-index: 1; 
-            background: #e5e3df; 
+        #map {
+            flex: 1;
+            height: 100%;
+            z-index: 1;
+            background: #e5e3df;
         }
 
         /* Sidopanel */
@@ -34,7 +34,7 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 15px;
         }
 
         /* Mobilläge (skärmar upp till 768px) */
@@ -45,15 +45,15 @@
             #map {
                 flex: none;
                 width: 100%;
-                height: 50vh; /* Övre halvan */
+                height: 50vh;
             }
             #sidebar {
                 width: 100%;
-                height: 50vh; /* Undre halvan */
+                height: 50vh;
                 border-left: none;
                 border-top: 2px solid #ddd;
                 padding: 15px;
-                gap: 15px;
+                gap: 12px;
             }
         }
 
@@ -132,13 +132,22 @@
             display: inline-block;
             background: #0066cc;
             color: white;
-            padding: 8px 12px;
+            padding: 10px 12px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 6px;
             border: none;
             cursor: pointer;
             font-size: 14px;
             margin-top: 10px;
+        }
+        .btn-day-filter {
+            background: #d9381e;
+            width: 100%;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .btn-day-filter.active {
+            background: #111111;
         }
         .btn-toggle { background: #28a745; width: 100%; font-weight: bold; }
         .btn-toggle.active { background: #dc3545; }
@@ -166,6 +175,9 @@
 <div id="sidebar">
     <a href="index.html" class="back-link">← Tillbaka till startsidan</a>
 
+    <!-- Knapp för att filtrera på senaste dagen -->
+    <button id="toggle-latest-day" class="btn btn-day-filter">Visa bara senaste dagen</button>
+
     <!-- Informationsruta för vald plats -->
     <div id="info-panel" class="card">
         <h2>Välj en plats</h2>
@@ -189,7 +201,7 @@
 <!-- Laddar Leaflet och startar sedan app.js automatiskt -->
 <script>
     (function() {
-        const base = ['https:/', 'unpkg.com', 'leaflet@1.9.4', 'dist'].join('/');
+        const base = new Array('https:/', 'unpkg.com', 'leaflet@1.9.4', 'dist').join('/');
 
         const link = document.createElement('link');
         link.rel = 'stylesheet';
@@ -199,7 +211,7 @@
         const script = document.createElement('script');
         script.src = base + '/leaflet.js';
         script.onload = () => {
-            const appScript = document.createElement('script');
+            const appScript = document.createElem ent('script');
             appScript.src = 'app.js';
             document.body.appendChild(appScript);
         };
