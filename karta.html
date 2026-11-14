@@ -211,7 +211,7 @@
         const script = document.createElement('script');
         script.src = base + '/leaflet.js';
         script.onload = () => {
-            const appScript = document.createElem ent('script');
+            const appScript = document.createElement('script');
             appScript.src = 'app.js';
             document.body.appendChild(appScript);
         };
