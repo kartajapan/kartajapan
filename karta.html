@@ -3,80 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanska Fraser</title>
+    <title>Japan Karta & Waypoints</title>
+
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
-        body {
-            background: #f4f5f7;
-            color: #111;
-            padding: 25px 20px;
+        
+        /* Desktop-läge (standard) */
+        body { 
+            display: flex; 
+            flex-direction: row;
+            height: 100vh; 
+            overflow: hidden; 
+        }
+
+        /* Karta */
+        #map { 
+            flex: 1; 
+            height: 100%; 
+            z-index: 1; 
+            background: #e5e3df; 
+        }
+
+        /* Sidopanel */
+        #sidebar {
+            width: 380px;
+            height: 100%;
+            background: #f8f9fa;
+            border-left: 1px solid #ddd;
+            padding: 20px;
+            overflow-y: auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            gap: 20px;
         }
-        .container { width: 100%; max-width: 700px; }
-        .top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 25px;
+
+        /* Mobilläge (skärmar upp till 768px) */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            #map {
+                flex: none;
+                width: 100%;
+                height: 50vh; /* Övre halvan */
+            }
+            #sidebar {
+                width: 100%;
+                height: 50vh; /* Undre halvan */
+                border-left: none;
+                border-top: 2px solid #ddd;
+                padding: 15px;
+                gap: 15px;
+            }
         }
+
+        /* Tillbaka-knapp */
         .back-link {
+            display: inline-block;
             color: #333;
             text-decoration: none;
             font-weight: 600;
             font-size: 14px;
-            padding: 8px 14px;
-            background: #e2e6ea;
+            padding: 8px 12px;
+            background: #e9ecef;
             border-radius: 6px;
+            text-align: center;
+            transition: background 0.15s;
         }
-        .back-link:hover { background: #d6dbe0; }
-        h1 { font-size: 1.8rem; }
-        .phrase-list {
+        .back-link:hover { background: #dee2e6; }
+
+        /* Behållare som placerar pricken exakt på koordinaten och texten bredvid */
+        .place-marker-container {
             display: flex;
-            flex-direction: column;
-            gap: 12px;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            white-space: nowrap;
+            transform: translate(-7px, -50%);
         }
-        .phrase-card {
+
+        /* Själva cirkeln på kartan */
+        .place-dot {
+            width: 14px;
+            height: 14px;
+            background-color: #000000;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            flex-shrink: 0;
+            transition: transform 0.15s, background-color 0.15s;
+        }
+
+        /* Den svarta texten bredvid pricken */
+        .place-label {
+            color: #111111;
+            font-weight: 700;
+            font-size: 13px;
+            background: rgba(255, 255, 255, 0.88);
+            padding: 2px 6px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            transition: background-color 0.15s;
+        }
+
+        .place-marker-container:hover .place-dot {
+            transform: scale(1.25);
+            background-color: #d9381e !important;
+        }
+        .place-marker-container:hover .place-label {
+            background: #ffffff;
+        }
+
+        /* Info-kort */
+        .card {
             background: white;
-            padding: 16px 20px;
+            padding: 15px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
         }
-        .sv { font-weight: 700; font-size: 1.05rem; margin-bottom: 4px; }
-        .jp { font-size: 1.2rem; color: #d9381e; font-weight: 600; }
-        .romaji { color: #555; font-size: 0.95rem; font-style: italic; margin-top: 2px; }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .btn-toggle { background: #28a745; width: 100%; font-weight: bold; }
+        .btn-toggle.active { background: #dc3545; }
+
+        /* Waypoint-lista */
+        .waypoint-item {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+            font-size: 13px;
+        }
+        select, textarea {
+            width: 100%;
+            margin-top: 5px;
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        textarea { height: 120px; font-family: monospace; font-size: 12px; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="top-bar">
-        <h1>Japanska fraser</h1>
-        <a href="index.html" class="back-link">← Startsidan</a>
+<div id="map"></div>
+
+<div id="sidebar">
+    <a href="index.html" class="back-link">← Tillbaka till startsidan</a>
+
+    <!-- Informationsruta för vald plats -->
+    <div id="info-panel" class="card">
+        <h2>Välj en plats</h2>
+        <p style="color: #666; margin-top: 8px;">Klicka på en plats på kartan för att visa detaljer, bilder och länkar.</p>
     </div>
 
-    <div class="phrase-list">
-        <!-- Kopiera detta block för att lägga till fler fraser -->
-        <div class="phrase-card">
-            <div class="sv">Hej / God dag</div>
-            <div class="jp">こんにちは</div>
-            <div class="romaji">Konnichiwa</div>
-        </div>
+    <!-- Verktyg för Waypoints -->
+    <div class="card">
+        <h3>Waypoints-verktyg</h3>
+        <button id="toggle-wp-mode" class="btn btn-toggle">Aktivera klick på karta för Waypoint</button>
+        <p id="wp-status" style="font-size: 12px; color: #555; margin-top: 6px;">Läge: Avstängt</p>
 
-        <div class="phrase-card">
-            <div class="sv">Tack så mycket</div>
-            <div class="jp">ありがとうございます</div>
-            <div class="romaji">Arigatou gozaimasu</div>
-        </div>
+        <div id="waypoint-list" style="margin-top: 10px;"></div>
 
-        <div class="phrase-card">
-            <div class="sv">Ursäkta mig / Förlåt</div>
-            <div class="jp">すみません</div>
-            <div class="romaji">Sumimasen</div>
-        </div>
+        <h4 style="margin-top: 15px;">Exportera JSON</h4>
+        <textarea id="json-output" readonly placeholder="Dina skapade waypoints visas här som JSON..."></textarea>
+        <button id="copy-json" class="btn" style="background: #333; width: 100%;">Kopiera JSON</button>
     </div>
 </div>
 
+<!-- Laddar Leaflet och startar sedan app.js automatiskt -->
+<script>
+    (function() {
+        const base = ['https:/', 'unpkg.com', 'leaflet@1.9.4', 'dist'].join('/');
+
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = base + '/leaflet.css';
+        document.head.appendChild(link);
+
+        const script = document.createElement('script');
+        script.src = base + '/leaflet.js';
+        script.onload = () => {
+            const appScript = document.createElement('script');
+            appScript.src = 'app.js';
+            document.body.appendChild(appScript);
+        };
+        script.onerror = () => {
+            alert('Kunde inte hämta Leaflet från unpkg.com. Kontrollera din internetanslutning.');
+        };
+        document.body.appendChild(script);
+    })();
+</script>
 </body>
 </html>
