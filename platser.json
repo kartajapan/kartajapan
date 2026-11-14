@@ -117,11 +117,6 @@
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
     "beskrivning": "Här skall gran klätta imorgon"
   },
-
-
-
-
-
   {
     "id": "2",
     "Namn": "BOULDERING GYM OVERGROUND",
@@ -144,14 +139,6 @@
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
     "beskrivning": "Här skall gran klätta imorgon"
   },
-
-
-
-
-
-
-
-
   {
     "id": "1",
     "Namn": "Hirayamas lägenhet (Kameido)",
@@ -296,12 +283,6 @@
     "beskrivning": "Strandpromenaden vid floden nära Sakurabashi där Hirayama dricker burkdryck och leker skuggfölje med Tomoyama.",
     "color": "green"
   },
-
-
-
-
-
-
   {
     "id": "13",
     "Namn": "Yoyogi Fukamachi Mini Park Public Toilet",
@@ -506,7 +487,6 @@
     "beskrivning": "Designad av Junko Kobayashi. Består av åtta cylindriska torn som smälter samman med det gröna promenadstråket under järnvägen.",
     "color": "purple"
   },
-
   {
     "id": "30",
     "Namn": "Park Hyatt Tokyo (New York Bar & Grill)",
@@ -649,9 +629,44 @@
     "googlemapLink": "https://google.com",
     "img": "",
     "beskrivning": "Zentemplet i Kyoto där Charlotte går uppför Sanmon-porten och ser ett traditionellt bröllopsfölje.",
-    "color": "blue"
+    "color": "orange"
+  },
+  {
+    "id": "42",
+    "Namn": "Nintendo TOKYO (Shibuya)",
+    "plats": {
+      "lat": 35.6620,
+      "Lon": 139.6987
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://googleapis.com",
+    "beskrivning": "Nintendos första officiella flaggskeppsbutik i Japan på 6:e våningen i Shibuya PARCO med gigantiska karaktärsstatyer och exklusiva produkter.",
+    "color": "orange"
+  },
+  {
+    "id": "43",
+    "Namn": "Pokémon Center Shibuya",
+    "plats": {
+      "lat": 35.6620,
+      "Lon": 139.6987
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://googleapis.com",
+    "beskrivning": "Futuristisk Pokémon-butik på 6:e våningen i Shibuya PARCO med en animatronisk Mewtwo i naturlig storlek vid entrén och egen T-shirt-design.",
+    "color": "orange"
+  },
+  {
+    "id": "44",
+    "Namn": "CAPCOM STORE TOKYO (Shibuya)",
+    "plats": {
+      "lat": 35.6620,
+      "Lon": 139.6987
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://googleapis.com",
+    "beskrivning": "Officiell Capcom-butik på 6:e våningen i Shibuya PARCO med exklusiv merchandise från Monster Hunter, Resident Evil och Street Fighter.",
+    "color": "orange"
   }
-
 ]
 
 
