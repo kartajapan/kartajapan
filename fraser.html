@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Japanska Fraser</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background: #f4f5f7;
+            color: #111;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* --- VY 1: SÖKVY (DEFAULT) --- */
+        #search-view {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .home-link {
+            text-decoration: none;
+            color: #333;
+            background: #e2e6ea;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        #search-input {
+            width: 100%;
+            padding: 16px 18px;
+            font-size: 1.2rem;
+            border: 2px solid #ccc;
+            border-radius: 12px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        #search-input:focus {
+            border-color: #d9381e;
+        }
+
+        #results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .result-item {
+            background: white;
+            padding: 16px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: transform 0.1s, border-color 0.15s;
+        }
+
+        .result-item:hover, .result-item:active {
+            border-color: #d9381e;
+            transform: scale(1.01);
+        }
+
+        .result-sv {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 4px;
+        }
+
+        .result-jp {
+            font-size: 1rem;
+            color: #d9381e;
+            font-weight: 600;
+        }
+
+        /* --- VY 2: HELSKÄRMSVISNING (TRE RADER) --- */
+        #display-view {
+            display: none; /* Dold som standard */
+            position: fixed;
+            inset: 0;
+            background: #ffffff;
+            z-index: 100;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            padding: 20px 60px 20px 20px; /* Extra marginal till höger för backa-pilen */
+        }
+
+        /* Backa-pil uppe till höger */
+        #back-btn {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            width: 54px;
+            height: 54px;
+            background: #f0f2f5;
+            color: #111;
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+            z-index: 200;
+        }
+
+        #back-btn:active {
+            background: #e2e6ea;
+            transform: scale(0.95);
+        }
+
+        .phrase-row {
+            width: 100%;
+            line-height: 1.15;
+            word-break: keep-all;
+            overflow-wrap: break-word;
+        }
+
+        /* Rad 1: Japanska (Kanji/Kana) - Maximal storlek */
+        #disp-japanese {
+            font-size: clamp(2.2rem, 8.5vw, 18vh);
+            font-weight: 800;
+            color: #d9381e;
+        }
+
+        /* Rad 2: Fonetiskt på svenska */
+        #disp-phonetic {
+            font-size: clamp(1.5rem, 5.5vw, 12vh);
+            font-weight: 700;
+            color: #222222;
+        }
+
+        /* Rad 3: Svenska frasen */
+        #disp-svenska {
+            font-size: clamp(1.2rem, 4vw, 9vh);
+            font-weight: 500;
+            color: #555555;
+        }
+
+        /* Extra anpassning när mobilen hålls på sidan (liggande / landscape) */
+        @media (orientation: landscape) {
+            #display-view {
+                padding: 15px 80px 15px 25px;
+            }
+            #disp-japanese {
+                font-size: clamp(2.5rem, 7.5vw, 24vh);
+            }
+            #disp-phonetic {
+                font-size: clamp(1.8rem, 5vw, 17vh);
+            }
+            #disp-svenska {
+                font-size: clamp(1.3rem, 3.8vw, 13vh);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- SÖKVY -->
+<div id="search-view">
+    <div class="top-nav">
+        <h1>Sök fras</h1>
+        <a href="index.html" class="home-link">Startsidan</a>
+    </div>
+
+    <input
+            type="search"
+            id="search-input"
+            placeholder="Sök på svenska (t.ex. tack, notan, toalett)..."
+            autocomplete="off"
+            autofocus
+    >
+
+    <div id="results-list"></div>
+</div>
+
+<!-- HELSKÄRMSVY (TRE RADER) -->
+<div id="display-view">
+    <button id="back-btn" aria-label="Tillbaka till sök">←</button>
+
+    <div id="disp-japanese" class="phrase-row"></div>
+    <div id="disp-phonetic" class="phrase-row"></div>
+    <div id="disp-svenska" class="phrase-row"></div>
+</div>
+
+<script>
+    let phrasesData = [];
+
+    const searchView = document.getElementById('search-view');
+    const displayView = document.getElementById('display-view');
+    const searchInput = document.getElementById('search-input');
+    const resultsList = document.getElementById('results-list');
+    const backBtn = document.getElementById('back-btn');
+
+    const dispJapanese = document.getElementById('disp-japanese');
+    const dispPhonetic = document.getElementById('disp-phonetic');
+    const dispSvenska = document.getElementById('disp-svenska');
+
+    // 1. Ladda fraser från fraser.json
+    fetch('fraser.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Kunde inte hämta fraser.json');
+            return response.json();
+        })
+        .then(data => {
+            phrasesData = data;
+            renderResults(phrasesData);
+        })
+        .catch(err => {
+            console.error('Fel vid laddning av fraser.json:', err);
+            resultsList.innerHTML = '<p style="color:red;">Kunde inte ladda fraser.json. Kontrollera att filen ligger i samma mapp.</p>';
+        });
+
+    // 2. Filtrera sökresultat baserat på fältet "svenska"
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+
+        if (!query) {
+            renderResults(phrasesData);
+            return;
+        }
+
+        const filtered = phrasesData.filter(item =>
+            item.svenska && item.svenska.toLowerCase().includes(query)
+        );
+        renderResults(filtered);
+    });
+
+    // Säkerställ fokus/tangentbord vid klick på sökrutan
+    searchInput.addEventListener('click', () => {
+        searchInput.focus();
+    });
+
+    // 3. Rita ut sökresultaten
+    function renderResults(list) {
+        resultsList.innerHTML = '';
+
+        if (list.length === 0) {
+            resultsList.innerHTML = '<p style="color:#666; padding: 10px;">Inga fraser matchade din sökning.</p>';
+            return;
+        }
+
+        list.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'result-item';
+            card.innerHTML = `
+                    <div class="result-sv">${item.svenska}</div>
+                    <div class="result-jp">${item.japanese} (${item.japanese_fonetiskt})</div>
+                `;
+
+            card.addEventListener('click', () => {
+                openPhraseDisplay(item);
+            });
+
+            resultsList.appendChild(card);
+        });
+    }
+
+    // 4. Visa vald fras i helskärm på tre rader
+    function openPhraseDisplay(phrase) {
+        dispJapanese.textContent = phrase.japanese;
+        dispPhonetic.textContent = phrase.japanese_fonetiskt;
+        dispSvenska.textContent = phrase.svenska;
+
+        // Dölj sökvy och visa helskärmsvy
+        searchView.style.display = 'none';
+        displayView.style.display = 'flex';
+
+        // Dölj tangentbordet på mobilen genom att släppa fokus
+        searchInput.blur();
+    }
+
+    // 5. Backa till sökvyn för att söka upp nästa fras
+    backBtn.addEventListener('click', () => {
+        displayView.style.display = 'none';
+        searchView.style.display = 'flex';
+
+        // Rensa sökfältet, visa hela listan och öppna tangentbordet igen
+        searchInput.value = '';
+        renderResults(phrasesData);
+        searchInput.focus();
+    });
+</script>
+</body>
+</html>
