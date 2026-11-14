@@ -1,6 +1,66 @@
 [
   {
     "id": "1",
+    "Namn": "Går från stationen till första hotellet",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Som i en film, och påvägen ser vi InitialD bilen!!",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "Första restaurangen",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Helt själva först, vid 18 dundrar det in ",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "Första hotellet",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Grans fina hotell",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "Mat - ägg och ris",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "Kvällspromenad",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Titta in arkadhall",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
     "Namn": "Fu Fu Ramen",
     "plats": {
       "lat": 36.13906359399449,
@@ -9,6 +69,42 @@
     "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
     "beskrivning": "Ett ikoniskt kommunikations- och observationstorn i Minato, Tokyo."
+  },
+  {
+    "id": "1",
+    "Namn": "På promenad, kyrkogård",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Promenad och går förbi en liten kyrkogård",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "köper äklig dricka",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
+    "color": "yellow"
+  },
+  {
+    "id": "1",
+    "Namn": "Mat - dunderportion",
+    "plats": {
+      "lat": 36.13906359399449,
+      "Lon": 139.3887581811142
+    },
+    "googlemapLink": "https://www.google.com/maps/place/Fu+Fu+Ramen/@36.1394019,139.3887703,19.15z/data=!3m1!5s0x601f29be54f029ab:0xeff6de5290c8964c!4m15!1m8!3m7!1s0x601f28210341193f:0x4d86424c16f65fb5!2sKumagaya,+Saitama+prefektur!3b1!8m2!3d36.1471963!4d139.3889796!16zL20vMGdwNjBi!3m5!1s0x601f29bef82cc367:0x6735ee9f4eb84244!8m2!3d36.1390962!4d139.38878!16s%2Fg%2F1tdkb4yr?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTAytS8cRuEgF6O421ivKLzvPEKtKz29JvYbSqY1ebvBqGTFdenLfkSpQfI6Tw82FN4NCkYaRT5N-ALo-FhCuph3AFyjgBbU0om3fiptJD5PS4VbBJr_D-X499kngQLNrTPAXGqw=w408-h817-k-no",
+    "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -20,7 +116,542 @@
     "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
     "beskrivning": "Här skall gran klätta imorgon"
+  },
+
+
+
+
+
+  {
+    "id": "2",
+    "Namn": "BOULDERING GYM OVERGROUND",
+    "plats": {
+      "lat": 36.10086686393259,
+      "Lon": 139.4582516699866
+    },
+    "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
+    "beskrivning": "Här skall gran klätta imorgon"
+  },
+  {
+    "id": "2",
+    "Namn": "BOULDERING GYM OVERGROUND",
+    "plats": {
+      "lat": 36.10086683393259,
+      "Lon": 139.4582513699866
+    },
+    "googlemapLink": "https://www.google.com/maps/place/BOULDERING+GYM+OVERGROUND%E2%80%8B/data=!4m7!3m6!1s0x601f2c9023bd631b:0x3a703109ae7b2601!8m2!3d36.1009041!4d139.458278!16s%2Fg%2F11bt_hh2jd!19sChIJG2O9I5AsH2ARASZ7rgkxcDo?authuser=0&hl=sv&g_ep=EgoyMDI2MTEwOS4wIJJjKgBIAVAD&rclk=1",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl7ugc5qXdKnb4nyd-NYzRyK201ziJKldFEoXN7Lsef2Bjn_ilsxSjTxM22eEUX564hPbsMUovrAhBkUv2Ro_PkZh76qn2Ka2GC1Nqv4iHmomSUBclnptnUKpJbjFr2EhQXZn1tP3qdnNc=w408-h535-k-no",
+    "beskrivning": "Här skall gran klätta imorgon"
+  },
+
+
+
+
+
+
+
+
+  {
+    "id": "1",
+    "Namn": "Hirayamas lägenhet (Kameido)",
+    "plats": {
+      "lat": 35.706434,
+      "Lon": 139.8205663
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Tvåvåningshuset i Kameido där Hirayama bor, med utsikt mot Tokyo Skytree (privatbostad, visa hänsyn).",
+    "color": "green"
+  },
+  {
+    "id": "2",
+    "Namn": "Koto Tenso Jinja (helgedom)",
+    "plats": {
+      "lat": 35.7065,
+      "Lon": 139.8208
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Den lilla shintohelgedomen alldeles runt hörnet från Hirayamas hem där han ber varje morgon.",
+    "color": "green"
+  },
+  {
+    "id": "3",
+    "Namn": "Denki-yu (Sento / Badhus)",
+    "plats": {
+      "lat": 35.7161,
+      "Lon": 139.8225
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Traditionellt badhus (sento) från 1922 i Kyojima dit Hirayama cyklar efter jobbet.",
+    "color": "green"
+  },
+  {
+    "id": "4",
+    "Namn": "Asakusa Yakisoba Fukuchan",
+    "plats": {
+      "lat": 35.7118,
+      "Lon": 139.7978
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://googleusercontent.com",
+    "beskrivning": "Liten restaurang och bar i Asakusas underjordiska shoppinggata där Hirayama äter yakisoba och dricker.",
+    "color": "green"
+  },
+  {
+    "id": "5",
+    "Namn": "Sakurabashi-bron",
+    "plats": {
+      "lat": 35.717425,
+      "Lon": 139.806621
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Den X-formade gångbron över Sumidafloden där Hirayama cyklar tillsammans med sin systerdotter Niko.",
+    "color": "green"
+  },
+  {
+    "id": "6",
+    "Namn": "Chikyudo Books",
+    "plats": {
+      "lat": 35.7136,
+      "Lon": 139.7955
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5JoTnT6kr2Rt9c14xC7OlWa__D3wvKRgZkWjfB6hnz9Qbs5Rg2lWd5BppR1PwceJCzFdY1ssbNgLHiHNlvOC-FJo7YC-V_aLIv6YUD64sS2M2IaAHhInpccnOrEIiVi_HE7IXvQ=k-no",
+    "beskrivning": "Antikvariatet på Denpoin-gatan i Asakusa där Hirayama köper begagnade pocketböcker.",
+    "color": "green"
+  },
+  {
+    "id": "7",
+    "Namn": "Beni no Akari Novu (Izakaya / Snack-bar)",
+    "plats": {
+      "lat": 35.7186,
+      "Lon": 139.7962
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Den lilla baren i Asakusa som drivs av 'Mama' (Sayuri Ishikawa), dit Hirayama går på helgerna.",
+    "color": "green"
+  },
+  {
+    "id": "8",
+    "Namn": "Yoyogi Hachimangu Shrine",
+    "plats": {
+      "lat": 35.6719,
+      "Lon": 139.6889
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2-rqbxJ8ohcYxGbaCLi1TkharLal3p9a5OK4y2FmUFAKfnZQQ95dX2PecGnxBe4M9nkHuTp_1Te6y_Qj_vSBg7nqIaGgBHwkLIRQQLo5DhQvdryg39Vt3gYsCPLxOg3D7VSeybg=k-no",
+    "beskrivning": "Helgedomen i Shibuya där Hirayama äter sin lunchmacka på en bänk och fotograferar lövverket.",
+    "color": "green"
+  },
+  {
+    "id": "9",
+    "Namn": "Flash Disc Ranch",
+    "plats": {
+      "lat": 35.6616,
+      "Lon": 139.6685
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-0g9owwIEI3dr57Jm3bB3_Hq-JKzL_egOTc78pZ6ZKOkGECeS3_58_vvKBBcncj3iCC7rrncf0EO8Gru0z_MozzTzJ1mhdrBny25k4G0UVntgRp46PHH3RbL_p1zzfSCVuA2Djw=k-no",
+    "beskrivning": "Skivbutiken i Shimokitazawa där Hirayama säljer och letar efter gamla kassettband.",
+    "color": "green"
+  },
+  {
+    "id": "10",
+    "Namn": "Coin Laundry Sakura-yu (Tvättomat)",
+    "plats": {
+      "lat": 35.7095,
+      "Lon": 139.8165
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Tvättomaten i Narihira (nära Oshiage) där Hirayama tvättar sina kläder på sina lediga dagar.",
+    "color": "green"
+  },
+  {
+    "id": "11",
+    "Namn": "Jujiya Camera (Fotoaffär)",
+    "plats": {
+      "lat": 35.7135,
+      "Lon": 139.8160
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Fotoaffären i Oshiage där Hirayama lämnar in sina analoga filmrullar för framkallning.",
+    "color": "green"
+  },
+  {
+    "id": "12",
+    "Namn": "Sumida River Terrace (Imado-sidan)",
+    "plats": {
+      "lat": 35.7180,
+      "Lon": 139.8058
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Strandpromenaden vid floden nära Sakurabashi där Hirayama dricker burkdryck och leker skuggfölje med Tomoyama.",
+    "color": "green"
+  },
+
+
+
+
+
+
+  {
+    "id": "13",
+    "Namn": "Yoyogi Fukamachi Mini Park Public Toilet",
+    "plats": {
+      "lat": 35.6687,
+      "Lon": 139.6902
+    },
+    "googlemapLink": "https://google.com",
+    "img": "https://googleusercontent.com",
+    "beskrivning": "Designad av Shigeru Ban. Känd för sina genomskinliga orange och lila glasväggar som blir ogenomskinliga när dörren låses.",
+    "color": "purple"
+  },
+  {
+    "id": "14",
+    "Namn": "Haru-no-Ogawa Community Park Public Toilet",
+    "plats": {
+      "lat": 35.6705,
+      "Lon": 139.6896
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Shigeru Ban. Systertoaletten med blå och gröna glasväggar som smälter in bland parkens träd.",
+    "color": "purple"
+  },
+  {
+    "id": "15",
+    "Namn": "Yoyogi-Hachiman Public Toilet",
+    "plats": {
+      "lat": 35.6708,
+      "Lon": 139.6881
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Toyo Ito. Tre svampliknande cylindrar täckta av gröna mosaikplattor som påminner om skogsväxter.",
+    "color": "purple"
+  },
+  {
+    "id": "16",
+    "Namn": "Jingu-Dori Park Public Toilet",
+    "plats": {
+      "lat": 35.6648,
+      "Lon": 139.7018
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Tadao Ando. En rund paviljong med utskjutande tak och vertikala metallgaller som släpper in vind och ljus.",
+    "color": "purple"
+  },
+  {
+    "id": "17",
+    "Namn": "Jingumae Public Toilet",
+    "plats": {
+      "lat": 35.6716,
+      "Lon": 139.7042
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Nigo. Utformad som ett nostalgiskt, hemtrevligt litet trähus i kontrast till skyskraporna i Harajuku.",
+    "color": "purple"
+  },
+  {
+    "id": "18",
+    "Namn": "Urasando Public Toilet",
+    "plats": {
+      "lat": 35.6754,
+      "Lon": 139.7061
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Marc Newson. Har ett karakteristiskt, traditionellt japanskt koppartak som mörknar med tiden.",
+    "color": "purple"
+  },
+  {
+    "id": "19",
+    "Namn": "Ebisu Park Public Toilet",
+    "plats": {
+      "lat": 35.6476,
+      "Lon": 139.7081
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Masamichi Katayama (Wonderwall). En labyrintliknande konstruktion av 15 betongväggar inspirerad av forntida japanska bostäder.",
+    "color": "purple"
+  },
+  {
+    "id": "20",
+    "Namn": "Ebisu East Park Public Toilet (Squid Toilet)",
+    "plats": {
+      "lat": 35.6474,
+      "Lon": 139.7118
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Fumihiko Maki. Vit paviljong med flera tak som liknar en bläckfisk, belägen i den så kallade 'Bläckfiskparken'.",
+    "color": "purple"
+  },
+  {
+    "id": "21",
+    "Namn": "Ebisu Station West Exit Public Toilet",
+    "plats": {
+      "lat": 35.6467,
+      "Lon": 139.7093
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Kashiwa Sato. En stilren, kubformad byggnad i vit aluminium utanför Ebisu station.",
+    "color": "purple"
+  },
+  {
+    "id": "22",
+    "Namn": "Higashi Sanchome Public Toilet",
+    "plats": {
+      "lat": 35.6517,
+      "Lon": 139.7097
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Nao Tamura. Röd, triangulär byggnad inspirerad av den japanska presentinslagningstekniken Origata.",
+    "color": "purple"
+  },
+  {
+    "id": "23",
+    "Namn": "Hiroo Higashi Park Public Toilet",
+    "plats": {
+      "lat": 35.6510,
+      "Lon": 139.7219
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Tomohito Ushiro. Ett lysande monument med 7,9 miljarder ljusmönster som skiftar med tid och årstid.",
+    "color": "purple"
+  },
+  {
+    "id": "24",
+    "Namn": "Nabeshima Shoto Park Public Toilet",
+    "plats": {
+      "lat": 35.6611,
+      "Lon": 139.6915
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Kengo Kuma. En 'by' av fem små hyddor klädda i cederträplankor som smälter in i parkens grönska.",
+    "color": "purple"
+  },
+  {
+    "id": "25",
+    "Namn": "Namikibashi Public Toilet",
+    "plats": {
+      "lat": 35.6545,
+      "Lon": 139.7042
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Sou Fujimoto. Utformad som en stor vit handfatsskål med tvättställ i olika höjder för både barn och vuxna.",
+    "color": "purple"
+  },
+  {
+    "id": "26",
+    "Namn": "Nanago-Dori Park Public Toilet",
+    "plats": {
+      "lat": 35.6766,
+      "Lon": 139.6754
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Kazoo Sato. En vit kupolformad, röststyrd toalett ('Hi Toilet') som kan användas helt beröringsfritt.",
+    "color": "purple"
+  },
+  {
+    "id": "27",
+    "Namn": "Nishihara 1-Chome Park Public Toilet",
+    "plats": {
+      "lat": 35.6762,
+      "Lon": 139.6808
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Takenosuke Sakakura. Tre fristående bås med frostat glas som lyser upp parken som en lykta på kvällen.",
+    "color": "purple"
+  },
+  {
+    "id": "28",
+    "Namn": "Nishi-Sando Public Toilet",
+    "plats": {
+      "lat": 35.6789,
+      "Lon": 139.6939
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Sou Fujimoto. En vit, böljande struktur som även fungerar som en pausplats med dricksvattenfontäner.",
+    "color": "purple"
+  },
+  {
+    "id": "29",
+    "Namn": "Sasazuka Greenway Public Toilet",
+    "plats": {
+      "lat": 35.6736,
+      "Lon": 139.6695
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Designad av Junko Kobayashi. Består av åtta cylindriska torn som smälter samman med det gröna promenadstråket under järnvägen.",
+    "color": "purple"
+  },
+
+  {
+    "id": "30",
+    "Namn": "Park Hyatt Tokyo (New York Bar & Grill)",
+    "plats": {
+      "lat": 35.6855,
+      "Lon": 139.6908
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Lyxhotellet i Nishi-Shinjuku där Bob och Charlotte bor och möts i New York Bar på 52:a våningen.",
+    "color": "blue"
+  },
+  {
+    "id": "31",
+    "Namn": "Shibuya Scramble Crossing",
+    "plats": {
+      "lat": 35.6595,
+      "Lon": 139.7004
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Det världsberömda övergångsstället i Shibuya där Bob och Charlotte promenerar och ser Bobs Suntory-reklam.",
+    "color": "blue"
+  },
+  {
+    "id": "32",
+    "Namn": "Karaoke Kan Shibuya",
+    "plats": {
+      "lat": 35.6610,
+      "Lon": 139.6980
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Karaokebaren i Udagawacho (rum 601 och 602) där Bob och Charlotte sjunger tillsammans med sina japanska vänner.",
+    "color": "blue"
+  },
+  {
+    "id": "33",
+    "Namn": "Shabu-Zen (Shibuya Creston Hotel)",
+    "plats": {
+      "lat": 35.6648,
+      "Lon": 139.6928
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Restaurangen i källaren på Shibuya Creston Hotel där Bob och Charlotte äter shabu-shabu.",
+    "color": "blue"
+  },
+  {
+    "id": "34",
+    "Namn": "Sushiya no Ichikan (Daikanyama)",
+    "plats": {
+      "lat": 35.6495,
+      "Lon": 139.7022
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Den numera stängda sushirestaurangen i Daikanyama där Bob och Charlotte äter middag vid disken.",
+    "color": "blue"
+  },
+  {
+    "id": "35",
+    "Namn": "Air (Nattklubb i Daikanyama)",
+    "plats": {
+      "lat": 35.6489,
+      "Lon": 139.7011
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Nattklubben i källaren på Nakagawa Building där Bob och Charlotte dansar bland jätteballonger (stängde 2015).",
+    "color": "blue"
+  },
+  {
+    "id": "36",
+    "Namn": "A.P.C. Underground (Harajuku)",
+    "plats": {
+      "lat": 35.6685,
+      "Lon": 139.7058
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Klädbutiken i Harajuku vars träinredda källarlokal användes som inspelningsplats för strippklubben.",
+    "color": "blue"
+  },
+  {
+    "id": "37",
+    "Namn": "Joganji Temple (Nakano-Sakaue)",
+    "plats": {
+      "lat": 35.6961,
+      "Lon": 139.6825
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Templet i Nakano där Charlotte vandrar runt och betraktar en buddhistisk ceremoni.",
+    "color": "blue"
+  },
+  {
+    "id": "38",
+    "Namn": "Chuo-Dori & Sanbangai (Slutscenen i Shinjuku)",
+    "plats": {
+      "lat": 35.6914,
+      "Lon": 139.7016
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Gathörnet i Shinjuku där Bob kliver ur taxin för ett sista, tyst farväl av Charlotte.",
+    "color": "blue"
+  },
+  {
+    "id": "39",
+    "Namn": "Kabukicho (Yasukuni-dori)",
+    "plats": {
+      "lat": 35.6938,
+      "Lon": 139.7010
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Nöjesdistriktet vars neonskyltar Bob betraktar från taxin vid ankomsten till Tokyo.",
+    "color": "blue"
+  },
+  {
+    "id": "40",
+    "Namn": "Heian Jingu Shrine (Kyoto)",
+    "plats": {
+      "lat": 35.0160,
+      "Lon": 135.7824
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Helgedomen i Kyoto där Charlotte hoppar över stenarna i trädgården.",
+    "color": "blue"
+  },
+  {
+    "id": "41",
+    "Namn": "Nanzenji Temple (Kyoto)",
+    "plats": {
+      "lat": 35.0112,
+      "Lon": 135.7929
+    },
+    "googlemapLink": "https://google.com",
+    "img": "",
+    "beskrivning": "Zentemplet i Kyoto där Charlotte går uppför Sanmon-porten och ser ett traditionellt bröllopsfölje.",
+    "color": "blue"
   }
+  
 ]
 
 
