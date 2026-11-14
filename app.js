@@ -9,7 +9,7 @@ const streetLayer = L.tileLayer(osmUrl, {
 });
 
 // Flygfoto / Satellit (Esri World Imagery)
-const esriUrl = new Array('https:/', '://arcgisonline.com', 'ArcGIS', 'rest', 'services', 'World_Imagery', 'MapServer', 'tile', '{z}', '{y}', '{x}').join('/');
+const esriUrl = new Array('https:/', 'server.arcgisonline.com', 'ArcGIS', 'rest', 'services', 'World_Imagery', 'MapServer', 'tile', '{z}', '{y}', '{x}').join('/');
 const satelliteLayer = L.tileLayer(esriUrl, {
     attribution: 'Tiles &copy; Esri',
     maxZoom: 19
@@ -283,6 +283,7 @@ function updateWaypointUI() {
         `;
         listContainer.appendChild(item);
     });
+
     document.querySelectorAll('#waypoint-list select').forEach(select => {
         select.addEventListener('change', (e) => {
             const idx = e.target.getAttribute('data-index');
@@ -319,4 +320,3 @@ document.getElementById('copy-json').addEventListener('click', () => {
     navigator.clipboard.writeText(textarea.value);
     alert('JSON kopierad till urklipp!');
 });
-
