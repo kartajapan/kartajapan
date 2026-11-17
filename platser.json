@@ -11,7 +11,6 @@
     "beskrivning": "Helt själva först, vid 18 dundrar det in salery-man folk och när vi går är det helt fullt.",
     "color": "yellow",
     "dag": 1
-
   },
   {
     "id": "1",
@@ -25,7 +24,6 @@
     "beskrivning": "Grans fina hotell, vi behövde bo här så gran kunde beställa en väska till hotellet. Men när vi kommer fram så visar det sig att tjejen köpt den i sverige!",
     "color": "yellow",
     "dag": 1
-
   },
   {
     "id": "1",
@@ -39,7 +37,6 @@
     "beskrivning": "Liten 10 sits restaurang, fin och får klassisk äggrätt.",
     "color": "yellow",
     "dag": 2
-
   },
   {
     "id": "1",
@@ -132,7 +129,6 @@
     "color": "yellow",
     "dag": 3
   },
-
   {
     "id": "2",
     "Namn": "Hotel celection",
@@ -145,7 +141,6 @@
     "beskrivning": "just a hotel",
     "dag": 3,
     "color": "yellow"
-
   },
   {
     "id": "2",
@@ -159,14 +154,12 @@
     "beskrivning": "AAAA",
     "dag": 3,
     "color": "yellow"
-
   },
   {
     "id": "2",
     "Namn": "tempel",
     "plats": {
       "lat": 36.03033175404464,
-
       "Lon": 139.5376944629369
     },
     "googlemapLink": "",
@@ -174,7 +167,6 @@
     "beskrivning": "AAAA",
     "dag": 4,
     "color": "yellow"
-
   },
   {
     "id": "2",
@@ -188,21 +180,6 @@
     "beskrivning": "AAAA",
     "dag": 4,
     "color": "yellow"
-
-  },
-  {
-    "id": "2",
-    "Namn": "Cafe Endor, en macka och kallt kaffe",
-    "plats": {
-      "lat": 36.00966622762823,
-      "Lon": 139.55657560968658
-    },
-    "googlemapLink": "",
-    "img": "https://www.google.com/maps/place/caf%C3%A9+ENDOR/@36.0095661,139.5564447,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBlJ_PEXnPycM9ezppaGydM!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SKg07No87aPamKW8YqG4Gie0HxsJ-b0xZGj7kD3v7hORX48EWdAw9RWUA6OlFgzKAtaaFsb30uzjCFyDGmpUAwVOouIni5LF3XHp4TC4JrxkBP8BE-wBzjvzzQN3jYnmlIYvqH7G0uBrg8%3Dw203-h152-k-no!7i4000!8i3000!4m15!1m7!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!2scaf%C3%A9+ENDOR!8m2!3d36.0097083!4d139.5566205!16s%2Fg%2F11r1ygg_jw!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!8m2!3d36.0097083!4d139.5566205!10e5!16s%2Fg%2F11r1ygg_jw?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D#",
-    "beskrivning": "AAAA",
-    "dag": 4,
-    "color": "yellow"
-
   },
   {
     "id": "2",
@@ -216,7 +193,6 @@
     "beskrivning": "AAAA",
     "dag": 4,
     "color": "yellow"
-
   },
   {
     "id": "2",
@@ -230,37 +206,225 @@
     "beskrivning": "AAAA",
     "dag": 4,
     "color": "yellow"
-
+  },
+  {
+    "id": "2",
+    "Namn": "Frukost i sängen",
+    "plats": {
+      "lat": 35.973766086818436,
+      "Lon": 139.58842270513105
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "asd",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Frukost i sängen",
+    "plats": {
+      "lat": 36.03220773302584,
+      "Lon": 139.53388398912452
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "Söt sak",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Vila i park",
+    "plats": {
+      "lat": 36.03220773302584,
+      "Lon": 139.53388398912452
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "lite trötta",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Shinto shrine",
+    "plats": {
+      "lat": 36.030688466007184,
+      "Lon": 139.53753627386806
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLco6OWCn_WeGMBofCoKxgN5NM_iyxvCOYiXxrmQZ3DWIdsJF-b6Ed4GwoKg742tY9UG4qvctIVVwWGReI4n6N-8qXn0XsFdaj-yPBfXEZ1OgT4po9zEsgHLdXdJAxmjuKI-Ra5q=w408-h306-k-no",
+    "beskrivning": "lite trötta",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Cafe Endor, en macka och kallt kaffe",
+    "plats": {
+      "lat": 36.00966622762823,
+      "Lon": 139.55657560968658
+    },
+    "googlemapLink": "",
+    "img": "https://www.google.com/maps/place/caf%C3%A9+ENDOR/@36.0095661,139.5564447,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBlJ_PEXnPycM9ezppaGydM!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SKg07No87aPamKW8YqG4Gie0HxsJ-b0xZGj7kD3v7hORX48EWdAw9RWUA6OlFgzKAtaaFsb30uzjCFyDGmpUAwVOouIni5LF3XHp4TC4JrxkBP8BE-wBzjvzzQN3jYnmlIYvqH7G0uBrg8%3Dw203-h152-k-no!7i4000!8i3000!4m15!1m7!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!2scaf%C3%A9+ENDOR!8m2!3d36.0097083!4d139.5566205!16s%2Fg%2F11r1ygg_jw!3m6!1s0x6018cf9bf0d95723:0x65ac232e9dd9eaac!8m2!3d36.0097083!4d139.5566205!10e5!16s%2Fg%2F11r1ygg_jw?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D#",
+    "beskrivning": "AAAA",
+    "dag": 5,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Tåg till nästa hotell",
+    "plats": {
+      "lat": 35.99865513053635,
+      "Lon": 139.56410032934224
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Apa hotel",
+    "plats": {
+      "lat": 35.97144039013167,
+      "Lon": 139.59050992623125
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Apa hotel",
+    "plats": {
+      "lat": 35.97144039013167,
+      "Lon": 139.59050992623125
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
   },
   {
     "id": "2",
     "Namn": "惣菜食堂 NiCO",
     "plats": {
-      "lat": 35.96994613381384,
-      "Lon": 139.5859561728372
+      "lat": 35.96993057600645,
+      "Lon": 139.58593700909574
     },
     "googlemapLink": "",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTq80kJQJKMKZFr2hhJmJmilpzDD4WSlXJ4Qecb3sSn7E6Jz1Kf5jV1cxg_56hgjg9HymD2o6qCasmylvFlvDvueJyln1Aw_aL-dKFNIsNbMPBIu7g8dHiu_7u88ShzkX-j-s5Yy8yTKcF=w408-h797-k-no",
     "beskrivning": "Käkar en set meny, borde käkat friterad kykling endast. Men fick tag på en grön öl  :D",
-    "dag": 4,
+    "dag": 5,
     "color": "yellow"
-
   },
-
   {
-  "id": "2",
-  "Namn": "AAAA",
-  "plats": {
-    "lat": 35.10086686393259,
-    "Lon": 139.4582516699866
+    "id": "2",
+    "Namn": "Det odlas verkligen mitt i stan",
+    "plats": {
+      "lat": 35.96642351407916,
+      "Lon": 139.60598243787982
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
   },
-  "googlemapLink": "",
-  "img": "",
-  "beskrivning": "AAAA",
-  "dag": 3
-},
-
-
+  {
+    "id": "2",
+    "Namn": "Kumano Shrine",
+    "plats": {
+      "lat": 35.96642351407916,
+      "Lon": 139.60598243787982
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
+    "beskrivning": "AAAA",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Dags för ramen igen",
+    "plats": {
+      "lat": 35.94879985583845,
+      "Lon": 139.60519291816988
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
+    "beskrivning": "Sjukt enegisk kvinna till servitör, köper via knapptavla, smidigt",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Tåg vidare!",
+    "plats": {
+      "lat": 35.94020156244485,
+      "Lon": 139.609616791369
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
+    "beskrivning": "Sjukt enegisk kvinna till servitör, köper via knapptavla, smidigt",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Hotel i kawaguchi",
+    "plats": {
+      "lat": 35.799081122617906,
+      "Lon": 139.71758436796566
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Gå på bio, Godzilla såklar! + Mer Ramen",
+    "plats": {
+      "lat": 35.80741181241466,
+      "Lon": 139.71442706003796
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 5
+  },
+  {
+    "id": "2",
+    "Namn": "Korv till frukost!",
+    "plats": {
+      "lat": 35.10086686393259,
+      "Lon": 139.4582516699866
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "Gran uppskattar inte varmmat till frukost, men de har en brödrostsung, sån skall vi ha!",
+    "dag": 6
+  },
+  {
+    "id": "2",
+    "Namn": "Tar tåget in till Kanda",
+    "plats": {
+      "lat": 35.10086686393259,
+      "Lon": 139.4582516699866
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "Nu börjar det bli city!",
+    "dag": 6
+  },
+  {
+    "id": "2",
+    "Namn": "AAAA",
+    "plats": {
+      "lat": 35.10086686393259,
+      "Lon": 139.4582516699866
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 3
+  },
   {
     "id": "1",
     "Namn": "Hirayamas lägenhet (Kameido)",
