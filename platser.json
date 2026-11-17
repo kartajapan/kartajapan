@@ -327,7 +327,8 @@
     "googlemapLink": "",
     "img": "",
     "beskrivning": "AAAA",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -339,7 +340,8 @@
     "googlemapLink": "",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
     "beskrivning": "AAAA",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -351,7 +353,8 @@
     "googlemapLink": "",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
     "beskrivning": "Sjukt enegisk kvinna till servitör, köper via knapptavla, smidigt",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -363,7 +366,8 @@
     "googlemapLink": "",
     "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLel9HJYKCCIyDzBxCiMhOriQhYx8zncTNiSoLfuIDZpuSg_C17GLK9Bxm16kN5NQ5nDXiYFQMEXEUsRVfeP3bXxmnlmiczns1zjQqqnCl5-aKiG_EwXxJtr0UxmqjCOwYOv9ze-Whun-zs=w426-h240-k-no",
     "beskrivning": "Sjukt enegisk kvinna till servitör, köper via knapptavla, smidigt",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -375,7 +379,8 @@
     "googlemapLink": "",
     "img": "",
     "beskrivning": "AAAA",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -387,7 +392,8 @@
     "googlemapLink": "",
     "img": "",
     "beskrivning": "AAAA",
-    "dag": 5
+    "dag": 5,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -399,7 +405,8 @@
     "googlemapLink": "",
     "img": "",
     "beskrivning": "Gran uppskattar inte varmmat till frukost, men de har en brödrostsung, sån skall vi ha!",
-    "dag": 6
+    "dag": 6,
+    "color": "yellow"
   },
   {
     "id": "2",
@@ -411,20 +418,118 @@
     "googlemapLink": "",
     "img": "",
     "beskrivning": "Nu börjar det bli city!",
-    "dag": 6
+    "dag": 6,
+    "color": "yellow"
   },
   {
     "id": "2",
-    "Namn": "AAAA",
+    "Namn": "Går runt palatset",
     "plats": {
-      "lat": 35.10086686393259,
-      "Lon": 139.4582516699866
+      "lat": 35.68421396519307,
+      "Lon": 139.74463541151047
     },
     "googlemapLink": "",
     "img": "",
     "beskrivning": "AAAA",
-    "dag": 3
+    "dag": 6,
+    "color": "yellow"
   },
+  {
+    "id": "2",
+    "Namn": "Väldigt komersielt Shrine",
+    "plats": {
+      "lat": 35.67431306000407,
+      "Lon": 139.73975857785723
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLelWAl5Bw9yvL3MVecxxJtzx61OXGNFlJXVhvefPSxCML18D5_8v58EEkxasFjwUz8JmxV2SS3JoVj7ZGd4kZfZHs0WKd6cWc0dI-IcwS-Cs0qtNsozcTb77AyR08CMYsvuhHQQ=w203-h135-k-no",
+    "beskrivning": "AAAA",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "AAA",
+    "plats": {
+      "lat": 35.68421396519307,
+      "Lon": 139.74463541151047
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "AAAA",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Ramen! Kyushu Jangara Akasaka",
+    "plats": {
+      "lat": 35.67162620553598,
+      "Lon": 139.7379163480122
+    },
+    "googlemapLink": "",
+    "img": "",
+    "beskrivning": "Lite turistigt, men gott!",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Shrine, lugnt och skönt",
+    "plats": {
+      "lat": 35.67162620553598,
+      "Lon": 139.7379163480122
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfcDyPGuMdcg632iQehF_gOwU2lSUtXGZeCTKvQKuMKXYRNQ59nLquVU_WWMH93V6AhT1YyH5uvBPoZrhOTqYD_RSLxyRj4G2_WTGA1mshqjEE0kaRv1RNeYOK9OkBmA_93oJM=w408-h272-k-no",
+    "beskrivning": "Arg ugen men annars fint :D",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Åker upp i en skyskrapa, våning 34",
+    "plats": {
+      "lat": 35.66052742305465,
+      "Lon": 139.74077017069814
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfBYF-itAKlkdro1WjAvA_5jHTiQaYku6Z06YI3mwdZxbp3rRl0kfj8wrHQY-AwM3DpR5UIt-3thKqqA-VFBGcLvsJlXJK9a8OqvcoQwyiPIE2V66uibWzJvuNRo5SAOiZNLxfVL34Eousy=w408-h306-k-no",
+    "beskrivning": "Otroligt högt, ville åka ner direkt, men var tvungna att fota lite. Det var jordbävning här för 5 dagarsedan så blir lite nojjig.",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Ringer kidsen utanför Tokyo Tower",
+    "plats": {
+      "lat": 35.659629865059685,
+      "Lon": 139.74448184802517
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYVGuBetJrovA5rJuycYsLRu12Ruidq-nA8mZq2hiaVs448RhxgZ2RBQIKO91kohWl-Zv5Bp70ECXzF8sA13flAelLgSHCw93tIqKrQi_yF_YwxDksEid1GJGCXdloNq75hqb9fg=w408-h725-k-no",
+    "beskrivning": "LAAA",
+    "dag": 6,
+    "color": "yellow"
+  },
+  {
+    "id": "2",
+    "Namn": "Teamlab Borderless",
+    "plats": {
+      "lat": 35.662042721913984,
+      "Lon": 139.74321345325694
+    },
+    "googlemapLink": "",
+    "img": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYKPgm-3r_7xqcSSBPxSvhW_oDpr-1leKjY6Qggo0Yq16f8uDX-auo07evOUxHEi7dt1cm8wKdreGyL_bH4-0fbWBlTo93S-H3Qh5vZzvQfGw8cVnxqWLNX0bg1SGW3azBN67-xg=w408-h306-k-no",
+    "beskrivning": "Undrade, kan det vara turristfälla, men det var verkligen coolt.",
+    "dag": 6,
+    "color": "yellow"
+  },
+
+
+
+
+
   {
     "id": "1",
     "Namn": "Hirayamas lägenhet (Kameido)",
@@ -436,6 +541,7 @@
     "img": "",
     "beskrivning": "Tvåvåningshuset i Kameido där Hirayama bor, med utsikt mot Tokyo Skytree (privatbostad, visa hänsyn).",
     "color": "green"
+
   },
   {
     "id": "2",
